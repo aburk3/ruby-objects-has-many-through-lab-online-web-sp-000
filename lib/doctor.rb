@@ -24,5 +24,11 @@ class Doctor
     end
   end
 
+  def patients
+    binding.pry
+    # Appointment.all.select do |appointment|
+    #   appointment.patient
+  end
+
 
 end
